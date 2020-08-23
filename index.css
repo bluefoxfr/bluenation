@@ -1,0 +1,384 @@
+/*Fonts ajoutés*/
+@font-face {
+	font-family: Coolvetica;
+	src: url(fonts/coolvetica_rg.ttf);
+}
+
+@font-face {
+	font-family: Bebas;
+	src: url(fonts/BebasNeue-Regular.ttf);
+}
+/*Fin*/
+
+body {
+	background-color: #191919;
+	margin: 0;
+	padding: 0;
+
+}
+
+/*Barre centrale permanente*/
+.bluenation {
+	color: white;
+	font-size: 50px;
+	font-family: Bebas;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	margin-top: 2px;
+	margin-left: 10px;
+	position: fixed;
+}
+
+.bluenation:hover {
+	color: #1E90FF;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.joinus {
+	background-color: transparent;
+	color: white;
+	text-align: center;
+	font-family: Coolvetica;
+	position: absolute;
+	transform: translate(0%,0%);
+	top: 0%;
+	right: 0%;
+	border-style: hidden;
+	position: fixed;
+	font-size: 20px;
+	margin-right: 50px;
+	width: 150px;
+	height: 60px;
+}
+
+.joinus:hover{
+	background-color: #1E90FF;
+	transition: 0.8s;
+	cursor: pointer;
+} 
+
+.joinus:active {
+	background-color: #13293D;
+	cursor: pointer;
+}
+
+.upbar {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	background-color: #191919; /*#34495e pour l'ancienne couleure de la barre*/
+	width: 100%;
+	height: 60px;
+	transform: translate(0%, 0%);
+	text-align: left;
+	position: fixed;
+	z-index: 10;
+}
+/*Fin*/
+
+/*Box 1*/
+.firstbox {
+	background-color: transparent;
+	text-align: center;
+	position: absolute;
+	transform: translate(0%, 0%);
+	top: 5%;
+	left: 0%;
+	width: 100%;
+	height: 1000px;
+	z-index: 9;
+}
+
+.firstbox h5 {
+	color: white;
+	font-size: 70px;
+	font-family: Coolvetica;
+	position: sticky;
+	margin-top: 200px;
+	z-index: 9;
+	background-color: #2a72e7;
+	display: inline-block;
+}
+
+.firstbox button {
+	position: sticky;
+	font-family: Coolvetica;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	left: 50%;
+	z-index: 9;
+	background-color: #1E90FF;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #1E90FF;
+}
+
+.firstbox button:hover {
+	border-color: white;
+	transition: 0.5s;
+}
+
+/*Fin*/
+
+/*Box 2*/
+.box2 {
+	background-color: #1E90FF;
+	text-align: center;
+	position: absolute;
+	transform: translate(0%, 0%);
+	top: 85%;
+	left: 0%;
+	width: 100%;
+	height: 700px;
+	z-index: 7;
+}
+
+.box2 .entreprise {
+	color: white;
+	background-color: #2a72e7;
+	position: sticky;
+	transform: translate(0%, 0%);
+	font-size: 60px;
+	font-family: Coolvetica;
+	display: inline-block;
+
+}
+
+.box2_titre {
+	color: white;
+	position: sticky;
+	transform: translate(0%, 0%);
+	font-size: 45px;
+	font-family: Coolvetica;
+	margin-top: -75px;
+	margin-left: 650px;
+
+
+}
+
+.box2_texte {
+	color: white;
+	position: sticky;
+	transform: translate(0%, 0%);
+	font-size: 25px;
+	font-family: Coolvetica;
+	margin-left: 650px;
+
+}
+
+.box2_texte2 {
+	color: white;
+	position: sticky;
+	transform: translate(0%, 0%);
+	font-size: 28px;
+	font-family: Coolvetica;
+	margin-top: 50px;
+	margin-left: 650px;
+}
+
+.logo_gamer {
+	position: sticky;
+	transform: translate(0%, 0%);
+	margin-top: -395px;
+	margin-left: -900px;
+	left: -20%;
+}
+/*Fin*/
+
+/*Box 3*/
+.box3 {
+	background-color: #13293D;
+	text-align: center;
+	position: absolute;
+	transform: translate(0%, 0%);
+	top: 100%;
+	left: 0%;
+	width: 100%;
+	height: 1400px;
+	z-index: 6;	
+}
+
+.logo_code {
+	margin-left: 750px;
+	margin-top: -400px;
+}
+
+.box3 h3 {
+	margin-top: 600px;
+	color: white;
+	font-family: Coolvetica;
+	transform: translate(0%, 0%);
+	font-size: 60px;
+}
+
+.box3 h5 {
+	color: white;
+	font-family: Coolvetica;
+	position: sticky;
+	font-size: 25px;
+	margin-left: -650px;
+	margin-top: 100px;
+}
+
+.box3 h6 {
+	color: white;
+	font-family: Coolvetica;
+	position: sticky;
+	font-size: 25px;
+	margin-left: -650px;
+}
+
+.box3 h2 {
+	color: white;
+	font-family: Coolvetica;
+	position: sticky;
+	font-size: 15px;
+	margin-left: -650px;
+}
+
+/*Box 4*/
+
+.box4 {
+	background-color: #66CED6;
+	text-align: center;
+	position: absolute;
+	transform: translate(0%, 0%);
+	top: 210%;
+	left: 0%;
+	width: 100%;
+	height: 1200px;
+	z-index: 5;	
+}
+
+.box4 h3 {
+	margin-top: 420px;
+	color: white;
+	font-family: Coolvetica;
+	transform: translate(0%, 0%);
+	font-size: 60px;
+	position: sticky;
+}
+
+.box4 h4 {
+	color: white;
+	font-family: Coolvetica;
+	position: sticky;
+	font-size: 25px;
+	margin-left: -630px;
+	margin-top: 100px;
+}
+
+.box4 h5 {
+	color: white;
+	font-family: Coolvetica;
+	position: sticky;
+	font-size: 25px;
+	margin-left: -630px;
+}
+
+.logo_cloud {
+	margin-left: 750px;
+	margin-top: -400px;
+}
+
+/*Box 5*/
+.box5 {
+	background-color: #001242;
+	text-align: center;
+	position: absolute;
+	transform: translate(0%, 0%);
+	top: 310%;
+	left: 0%;
+	width: 100%;
+	height: 1000px;
+	z-index: 4;	
+}
+
+.box5 h3 {
+	margin-top: 300px;
+	color: white;
+	font-family: Coolvetica;
+	transform: translate(0%, 0%);
+	font-size: 60px;
+}
+
+.box5 h4 {
+	color: white;
+	position: sticky;
+	transform: translate(0%, 0%);
+	font-size: 25px;
+	font-family: Coolvetica;
+	margin-left: 650px;
+	margin-top: 100px;
+}
+
+.box5 h5 {
+	color: white;
+	position: sticky;
+	transform: translate(0%, 0%);
+	font-size: 25px;
+	font-family: Coolvetica;
+	margin-left: 650px;
+}
+
+.logo_community {
+	position: sticky;
+	transform: translate(0%, 0%);
+	margin-top: -350px;
+	margin-left: -700px;
+}
+
+/*Box 6*/
+
+.box6 {
+	background-color: transparent;
+	text-align: center;
+	position: absolute;
+	transform: translate(0%, 0%);
+	top: 410%;
+	left: 0%;
+	width: 100%;
+	height: 700px;
+	z-index: 3;	
+}
+
+.box6 h3 {
+	margin-top: 100px;
+	color: white;
+	font-family: Coolvetica;
+	transform: translate(0%, 0%);
+	font-size: 60px;
+}
+
+.box6 h4 {
+	color: white;
+	position: sticky;
+	transform: translate(0%, 0%);
+	font-size: 25px;
+	font-family: Coolvetica;
+	margin-top: 50px;
+}
+
+.rs_facebook .facebook {
+	opacity: 0;
+}
+
+.rs_facebook .btn_facebook:hover .facebook {
+	opacity: 1;
+}
+
+
+
+/*Fin*/
+
+/*Signature*/
+
+.signature {
+	font-family: Coolvetica;
+	font-size: 20px;
+	transform: translate(-50%, -50%);
+	margin-left: 50%;
+}
